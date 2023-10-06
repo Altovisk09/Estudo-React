@@ -7,6 +7,9 @@ const Events = ()=>{
             <div>
                 <button onClick={handleEvent}>Enviar</button>
             </div>
+            <div>
+                <button onClick={()=>console.log('Não recomendado, mas se for simples da para usar')}>Função inline</button>
+            </div>
         </div>
     )
 }
