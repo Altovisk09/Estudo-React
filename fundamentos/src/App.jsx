@@ -4,6 +4,7 @@ import './App.css'
 // Importação Componentes
 import FirstComponent from './components/FirstComponent'
 import TemplateExpressions from './components/TemplateExpressions'
+import MultComponent from './components/MultComponent'
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h1>Fundamentos</h1>
       <FirstComponent/>
       <TemplateExpressions/>
+      <MultComponent/>
     </div>
   )
 }
