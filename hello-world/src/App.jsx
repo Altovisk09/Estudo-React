@@ -7,7 +7,10 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <h1>Hello World React</h1>
+    <div>
+      <h1>Hello World React</h1>
+      <h3 className='ex'>Testando</h3>
+    </div>
   )
 }
 
